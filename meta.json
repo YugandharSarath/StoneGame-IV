@@ -1,0 +1,75 @@
+{
+  "title": "Stone Game IV",
+  "difficulty": "Hard",
+  "duration": "45-60 min",
+  "topics": [
+    "Dynamic Programming",
+    "Game Theory",
+    "Math",
+    "Recursion",
+    "Memoization"
+  ],
+  "companies": [
+    "Google",
+    "Facebook",
+    "Amazon",
+    "Microsoft",
+    "Apple",
+    "ByteDance",
+    "Adobe"
+  ],
+  "tags": [
+    "impartial-game",
+    "optimal-play",
+    "perfect-squares",
+    "dp-games",
+    "sprague-grundy",
+    "winning-strategy",
+    "game-states",
+    "minimax",
+    "competitive-programming"
+  ],
+  "leetcode_id": 1510,
+  "difficulty_score": 8.5,
+  "acceptance_rate": "59.8%",
+  "frequency": "Medium",
+  "patterns": [
+    "Bottom-up DP",
+    "Game Theory DP",
+    "State Space Search"
+  ],
+  "prerequisites": [
+    "Basic Dynamic Programming",
+    "Game Theory Fundamentals",
+    "Perfect Squares Knowledge"
+  ],
+  "similar_problems": [
+    "Stone Game",
+    "Stone Game II",
+    "Stone Game III",
+    "Nim Game",
+    "Flip Game II"
+  ],
+  "complexity": {
+    "time": "O(n√n)",
+    "space": "O(n)"
+  },
+  "hints_count": 4,
+  "follow_up_questions": [
+    "Can you optimize the space complexity?",
+    "What if players could take any number of stones (not just perfect squares)?",
+    "How would the solution change for 3 or more players?"
+  ],
+  "real_world_applications": [
+    "Game AI Development",
+    "Resource Allocation Games",
+    "Strategic Decision Making",
+    "Competitive Game Design"
+  ],
+  "learning_objectives": [
+    "Understand game theory in competitive programming",
+    "Master dynamic programming for game states",
+    "Learn optimal strategy calculation",
+    "Practice state space analysis"
+  ]
+}
