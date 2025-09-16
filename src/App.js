@@ -1,7 +1,9 @@
+import React from "react";
+import StoneGameIV from "./StoneGameIV";
+import "./StoneGameIV.css";
+
 function App() {
-    return React.createElement(
-        'div',
-        { className: 'app' },
-        React.createElement(StoneGameIV)
-    );
+  return <StoneGameIV />;
 }
+
+export default App;
